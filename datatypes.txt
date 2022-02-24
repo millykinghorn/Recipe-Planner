@@ -1,0 +1,18 @@
+Milly Kinghorn 24/02/2022
+Text file describing data structures used in app.
+
+Recipe object is made of title, ingredient_list and method_list
+Recipe: [ "Cake" , ingredient_list, method_list ]
+
+
+Ingredient_list object for each recipe, 3 fields for each ingredient: food, amount, unit.
+Ingredient_list object made up of ingredient objects
+
+ingredient_list: [["eggs", 2,""], ["salt", 1, "teaspoon"], ["flour", 125, "grams"], ["sugar", 100, "grams"] ]
+ingredient: ["eggs", 2, ""]
+
+
+Method list is made up of multiple method objects. Each has a number and a string of the instruction.
+
+method_list: [[1, "break eggs into bowl and whisk"], [2, "sift flour into another bowl"], [3, "add sugar to flour"]]
+method: [1, "break eggs into bowl and whisk"]
