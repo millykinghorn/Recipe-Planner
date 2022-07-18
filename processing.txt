@@ -2,8 +2,20 @@ OCR (Optical Character Recognition)
 
 Tensorflow:
 General: https://www.tensorflow.org/lite/examples/optical_character_recognition/overview
-Text recognition model: https://tfhub.dev/tulasiram58827/lite-model/keras-ocr/float16/2
+Text recognition model (Keras): https://tfhub.dev/tulasiram58827/lite-model/keras-ocr/float16/2
+Keras ORC tools documentation: https://keras-ocr.readthedocs.io/en/latest/api.html#tools
 
 Google:
+Works for mobile apps (android and ios), but not web apps
 Text recognition kit: https://developers.google.com/ml-kit/vision/text-recognition (require google play services)
 iOS: https://developers.google.com/ml-kit/vision/text-recognition/ios (requires 64 bit device)
+
+SETUP
+
+pip install python (<3.10) or download from Store
+pip install git+https://github.com/faustomorales/keras-ocr.git#egg=keras-ocr
+
+powershell administrator: New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" `
+-Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force
+
+pip install tensorflow

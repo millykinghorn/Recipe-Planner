@@ -16,6 +16,6 @@ predicted_image_1 = prediction_groups[0]
 for text, box in predicted_image_1:
   print(text)
 
-#print image with annotation and boxes
+#print image with annotation and boxes(matplotlib)
 output_img = keras_ocr.tools.drawAnnotations(image=img, predictions=prediction_groups[0])
 plt.show()
