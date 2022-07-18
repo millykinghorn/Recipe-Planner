@@ -1,0 +1,9 @@
+OCR (Optical Character Recognition)
+
+Tensorflow:
+General: https://www.tensorflow.org/lite/examples/optical_character_recognition/overview
+Text recognition model: https://tfhub.dev/tulasiram58827/lite-model/keras-ocr/float16/2
+
+Google:
+Text recognition kit: https://developers.google.com/ml-kit/vision/text-recognition (require google play services)
+iOS: https://developers.google.com/ml-kit/vision/text-recognition/ios (requires 64 bit device)
